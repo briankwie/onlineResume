@@ -76,10 +76,10 @@ lpiImg.onclick = function(){
 }
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var lpiSpan = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
+lpiSpan.onclick = function() { 
   lpiModal.style.display = "none";
 }
 
@@ -97,10 +97,10 @@ awsImg.onclick = function(){
 }
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var awsSpan = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
+awsSpan.onclick = function() { 
   awsModal.style.display = "none";
 }
 
@@ -118,10 +118,10 @@ ovpnImg.onclick = function(){
 }
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var ovpnSpan = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
+ovpnSpan.onclick = function() { 
   ovpnModal.style.display = "none";
 }
 
@@ -139,10 +139,10 @@ algoImg.onclick = function(){
 }
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var algoSpan = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
+algoSpan.onclick = function() { 
   algoModal.style.display = "none";
 }
 
