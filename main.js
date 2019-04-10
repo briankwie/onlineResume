@@ -76,7 +76,7 @@ ovpnImg.onclick = function(){
 }
 
 // Get the <span> element that closes the modal
-var ovpnSpan = document.document.getElementById("ovpnClose");
+var ovpnSpan = document.getElementById("ovpnClose");
 
 // When the user clicks on <span> (x), close the modal
 ovpnSpan.onclick = function() { 
