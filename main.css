@@ -316,13 +316,37 @@ p {
 }
 
 /* Style the Image Used to Trigger the Modal */
-#myImg {
+#lpiImg {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#lpiImg:hover {opacity: 0.7;}
+
+#awsImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#awsImg:hover {opacity: 0.7;}
+
+#ovpnImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#ovpn:hover {opacity: 0.7;}
+
+#algoImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#algoImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
@@ -348,7 +372,40 @@ p {
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
+#lpiCaption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+#awsCaption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+#ovpnCaption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+#algoCaption {
   margin: auto;
   display: block;
   width: 80%;
