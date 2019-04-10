@@ -34,6 +34,10 @@ p {
 	line-height: 1.5
 }
 
+td {
+	padding-top: 100px;
+}
+
 .wrapper {
 	background: #42a8c0;
 	max-width: 1200px;
