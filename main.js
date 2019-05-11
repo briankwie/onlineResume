@@ -2,7 +2,7 @@ showHideGit.onclick = function() {
     var testGit = document.getElementById('gitDescript');
     var x = document.getElementsByClassName("detailsGit");
     var i;
-    if 
+    if (testGit.style.display == "block")
     for (i = 0; i < x.length; i++) {
         x[i].classList.toggle("block");
     }
