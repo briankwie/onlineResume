@@ -1,25 +1,3 @@
-jQuery(document).ready(function($) {
-
-    $('.level-bar-inner').css('width', '0');
-    
-    $(window).on('load', function() {
-
-        $('.level-bar-inner').each(function() {
-        
-            var itemWidth = $(this).data('level');
-            
-            $(this).animate({
-                width: itemWidth
-            }, 800);
-            
-        });
-
-    });
-   
-    
-
-});
-
 // Get the modal
 var lpiModal = document.getElementById('lpiModal');
 
@@ -37,7 +15,7 @@ lpiImg.onclick = function(){
 var lpiSpan = document.getElementById("lpiClose");
 
 // When the user clicks on <span> (x), close the modal
-lpiSpan.onclick = function() { 
+lpiSpan.onclick = function() {
   lpiModal.style.display = "none";
 }
 
@@ -58,7 +36,7 @@ awsImg.onclick = function(){
 var awsSpan = document.getElementById("awsClose");
 
 // When the user clicks on <span> (x), close the modal
-awsSpan.onclick = function() { 
+awsSpan.onclick = function() {
   awsModal.style.display = "none";
 }
 
@@ -79,7 +57,7 @@ ovpnImg.onclick = function(){
 var ovpnSpan = document.getElementById("ovpnClose");
 
 // When the user clicks on <span> (x), close the modal
-ovpnSpan.onclick = function() { 
+ovpnSpan.onclick = function() {
   ovpnModal.style.display = "none";
 }
 
@@ -100,7 +78,6 @@ algoImg.onclick = function(){
 var algoSpan = document.getElementById("algoClose");
 
 // When the user clicks on <span> (x), close the modal
-algoSpan.onclick = function() { 
+algoSpan.onclick = function() {
   algoModal.style.display = "none";
 }
-
