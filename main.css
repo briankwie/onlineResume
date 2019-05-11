@@ -269,6 +269,10 @@ td {
 	background: #7bc2d3
 }
 
+.detailsGit {
+	display = none;	
+}
+
 .footer {
 	padding-top: 30px
 }
