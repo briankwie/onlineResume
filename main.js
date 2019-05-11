@@ -1,22 +1,11 @@
-// Get the modal
-var lpiModal = document.getElementById('lpiModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var lpiImg = document.getElementById('lpiImg');
-var lpiModalImg = document.getElementById("img01");
-var lpiCaptionText = document.getElementById("lpiCaption");
-lpiImg.onclick = function(){
-  lpiModal.style.display = "block";
-  lpiModalImg.src = this.src;
-  lpiCaptionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var lpiSpan = document.getElementById("lpiClose");
-
-// When the user clicks on <span> (x), close the modal
-lpiSpan.onclick = function() {
-  lpiModal.style.display = "none";
+showHideGit.onclick = function() {
+    var testGit = document.getElementById('gitDescript');
+    var x = document.getElementsByClassName("detailsGit");
+    var i;
+    if 
+    for (i = 0; i < x.length; i++) {
+        x[i].classList.toggle("block");
+    }
 }
 
 // Get the modal
