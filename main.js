@@ -1,4 +1,4 @@
-showHideGit.onclick = function() {
+function showHideGit() {
     var testGit = document.getElementById('gitDescript');
     var x = document.getElementsByClassName("detailsGit");
     var i;
